@@ -1,0 +1,35 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  width: 60%;
+  margin: 0 auto;
+}
+
+header {
+  border: 1px solid pink;
+  text-align: center;
+  height: 10%;
+}
+
+header h1 {
+  margin-top: 1.5%;
+}
+
+#etch-a-sketch {
+  border: 1px solid green;
+  height: 800px;
+  width: 800px;
+  margin: 0 auto 20% auto;
+}
